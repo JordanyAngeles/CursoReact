@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import UserComponent from './Components/User'
-import Profile from './Components/User/Profile'
+
 
 function App() {
   const name="Jordany Angeles Neri"
@@ -15,7 +15,7 @@ function App() {
   <p>Hecho por: {name}</p>
       </header>
       <UserComponent/>
-      <Profile/>
+      
     </div>
   );
 }
